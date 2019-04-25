@@ -4,7 +4,7 @@ namespace StringLibrary
 {
     public static class StringLibrary
     {
-        static Boolean StartsWithUpper(this String str)
+        public static Boolean StartsWithUpper(this String str)
         {
             if (String.IsNullOrWhiteSpace(str))
             {
